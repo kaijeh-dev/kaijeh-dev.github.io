@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaijeh Stats Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: a single readable column, like a printed policy sheet, with the brand's K tab mark in the header. */
+:root {
+  --bg: #F7F0E6;
+  --paper: #FFFDF9;
+  --ink: #2B2420;
+  --muted: #5F534B;
+  --rule: #DCCDB9;
+  --brown: #6C4B37;
+  --copper: #B86F45;
+  --sand: #BBA791;
+  --font-display: "Lora", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1F1A17; --paper: #2A231F; --ink: #F1E8DD; --muted: #C2B3A4; --rule: #4A3D34;
+    --brown: #C99A7A; --copper: #D08A5E; --sand: #8E7B68; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1F1A17; --paper: #2A231F; --ink: #F1E8DD; --muted: #C2B3A4; --rule: #4A3D34;
+  --brown: #C99A7A; --copper: #D08A5E; --sand: #8E7B68; color-scheme: dark;
+}
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 56px;
+}
+.sheet {
+  max-width: 44rem;
+  margin-inline: auto;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: clamp(24px, 5vw, 48px);
+  display: grid;
+  gap: 28px;
+}
+header { display: grid; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 0.875rem; letter-spacing: 0.04em; }
+.brand svg { flex: none; }
+h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.75rem, 4vw, 2.25rem); line-height: 1.2; margin: 0; text-wrap: balance; }
+.meta { margin: 0; color: var(--muted); font-size: 0.875rem; font-variant-numeric: tabular-nums; }
+.lead { margin: 0; font-size: 1.0625rem; max-width: 65ch; }
+section { display: grid; gap: 8px; border-top: 1px solid var(--rule); padding-top: 20px; }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: 1.25rem; margin: 0; color: var(--brown); }
+p, li { max-width: 65ch; }
+p { margin: 0; }
+ul { margin: 0; padding-left: 1.25rem; display: grid; gap: 4px; }
+a { color: var(--brown); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--copper); outline-offset: 2px; border-radius: 2px; }
+.contact { font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+
+<main class="sheet">
+  <header>
+    <div class="brand">
+      <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
+        <rect x="3" y="2" width="5" height="18" rx="1.5" fill="var(--brown)"></rect>
+        <rect x="9" y="3" width="5" height="11" rx="1.5" transform="rotate(45 11.5 8.5)" fill="var(--copper)"></rect>
+        <rect x="9" y="9" width="5" height="11" rx="1.5" transform="rotate(-45 11.5 14.5)" fill="var(--sand)"></rect>
+      </svg>
+      <span>KAIJEH</span>
+    </div>
+    <h1>Kaijeh Stats privacy policy</h1>
+    <p class="meta">Effective 31 October 2026</p>
+    <p class="lead">Kaijeh Stats is a private reporting tool used only by the owner of the Kaijeh shop. It reads the shop's own performance figures from Pinterest and Etsy and turns them into a weekly report for the owner. It is not offered to anyone else.</p>
+  </header>
+
+  <section>
+    <h2>Who runs it</h2>
+    <p>Kaijeh Stats is operated by Aashima Taneja, owner of the Kaijeh shop, Mumbai, India.</p>
+  </section>
+
+  <section>
+    <h2>What data it reads</h2>
+    <ul>
+      <li>From Pinterest: analytics for the Kaijeh Pinterest account only, such as impressions, saves, Pin clicks and outbound clicks, plus basic information about its own Pins and boards.</li>
+      <li>From Etsy: the Kaijeh shop's own listings, orders and reviews, as provided by Etsy's official API.</li>
+    </ul>
+    <p>It does not read data about other Pinterest users, other Pinterest accounts or other Etsy shops.</p>
+  </section>
+
+  <section>
+    <h2>What it stores</h2>
+    <ul>
+      <li>Daily totals and per-listing figures, kept in a private repository that only the owner can access.</li>
+      <li>For Etsy orders: the order number, date, amount, discount, refund, buyer country and the listings bought. Buyer names, email addresses, postal addresses and user IDs are not stored.</li>
+      <li>For Etsy reviews: the date, star rating and review text, which Etsy already shows publicly. Reviewer IDs are not stored.</li>
+      <li>The access tokens issued by Pinterest and Etsy, kept in a configuration file on the owner's private server and never shared or published.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How it is used and shared</h2>
+    <p>The data is used only to produce the owner's own performance report. It is not sold, rented, shared with third parties or used for advertising.</p>
+  </section>
+
+  <section>
+    <h2>Security and retention</h2>
+    <p>Access to the server and repository is limited to the owner. Data is kept for as long as it is useful for the shop's reporting and can be deleted at any time.</p>
+  </section>
+
+  <section>
+    <h2>Stopping access</h2>
+    <p>The owner can stop Kaijeh Stats at any time by removing its access in the Pinterest and Etsy account settings. Pinterest and Etsy then stop providing data, and the stored data can be deleted.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p class="contact">Questions about this policy can be sent through the Kaijeh shop on Etsy: <a href="https://kaijeh.etsy.com" target="_blank" rel="noopener">kaijeh.etsy.com</a>.</p>
+  </section>
+</main>
+
+</body>
+</html>
