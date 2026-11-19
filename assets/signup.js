@@ -1,7 +1,7 @@
 // Sign-up form. Submissions go to Formspree, which forwards them to Kaijeh's mailbox.
 // If an endpoint is left empty, the button falls back to the visitor's own mail app.
-var FORM_ENDPOINTS = { 'line-sheets': 'https://formspree.io/f/mrpqkvay', 'certificates': 'https://formspree.io/f/xbgoyeap' };
-var MAIL_TO = { 'line-sheets': 'hello+linesheets@kaijeh.com', 'certificates': 'hello+certificates@kaijeh.com' };
+var FORM_ENDPOINTS = { 'line-sheets': '', 'certificates': '' };
+var MAIL_TO = { 'line-sheets': 'support@kaijeh.com', 'certificates': 'support@kaijeh.com' };
 (function () {
   var form = document.getElementById('signup');
   if (!form) return;
